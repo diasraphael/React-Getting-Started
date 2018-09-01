@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const Button = function(props) {
+const Button = (props) =>{
   return <button>{props.label}</button>;
 };
 
